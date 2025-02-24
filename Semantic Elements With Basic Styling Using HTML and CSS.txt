@@ -1,0 +1,72 @@
+<html>
+<body>
+<header>
+    <style>
+        body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+header, nav, section, article, aside, footer
+{
+padding: 15px;
+margin: 10px;
+border-radius: 5px;
+}
+header {
+background: #333;
+color: white;
+text-align: center;
+}
+nav {
+background: #555;
+color: white;
+text-align: center;
+}
+section {
+display: flex;
+}
+article {
+flex: 2;
+background: white;
+padding: 15px;
+}
+aside {
+flex: 1;
+background: #ddd;
+padding: 15px;
+}
+footer {
+background: #333;
+color: white;
+text-align: center;
+}
+a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+}
+    </style>
+<h1>My Website</h1>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+<section>
+<article>
+<h2>Main Content</h2>
+<p>This is an example of using semantic elements in HTML.</p>
+</article>
+<aside>
+<h3>Sidebar</h3>
+<p>Additional related content goes here.</p>
+</aside>
+</section>
+<footer>
+<p>&copy; 2025 My Website. All rights reserved.</p>
+</footer>
+</body>
+</html>
